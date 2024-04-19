@@ -2,7 +2,7 @@
 
 In this FlexSim model, I used a date-time source (Source - Orders) to generate demand for each SCs (queues). Afterwards, I  pulled items from each milstone such as how long it takes a particularly processor to reach the respective SC.
  
-If a particular item is unavailable then an item is created in Queue5 and sent to respective SC, the model will track time from order creation (demand generated in Source - Orders) to order delivery (reach at SC). It does not track the total  time in the system because the part may have already existed before the demand was generated. I did this because the processing times vary via distributions. The dashboard illustrates how I was able to do this for all SC to track order to delivery time.
+For example, if a particular item is unavailable then an item is created in Queue5 and sent to respective SC, the model will track time from order creation (demand generated in Source - Orders) to order delivery (reach at SC). It does not track the total time in the system because the part may have already existed before the demand was generated. I did this also because the processing times vary via distributions. The dashboard illustrates how I was able to do this for all compiled SC to track order to delivery time.
 </br></br>
 
 ## 3D Animation 
